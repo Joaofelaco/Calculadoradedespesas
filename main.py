@@ -53,7 +53,7 @@ def main(page: ft.Page):
         columns=[
             ft.DataColumn(ft.Text("Nome")),
             ft.DataColumn(ft.Text("Valor (R$)")),
-            ft.DataColumn(ft.Text("Ação")),  # coluna para o botão de exclusão
+            ft.DataColumn(ft.Text("Ação")),  
         ],
         rows=[],
     )
